@@ -1,5 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
+import "./Timer.css";
 import Number from "../../atoms/Number/Number";
 
 const TimerNumber = (props) => {
@@ -23,7 +24,7 @@ const Timer = (props) => {
   const second = seconds % 60;
 
   return (
-    <div>
+    <div className={`timer-wrapper`}>
       <TimerNumber number={minute} />:<TimerNumber number={second} />
     </div>
   );
