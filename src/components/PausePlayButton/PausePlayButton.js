@@ -3,23 +3,19 @@ import PropTypes from "prop-types";
 import "./PausePlayButton.css";
 
 const PausePlayButton = (props) => {
-  const { onClick } = props;
-  const [isPause, setIsPause] = useState(true);
+  const { isPause, onClick } = props;
 
-  const handleButtonClick = () => {
-    onClick(!isPause);
-    setIsPause(!isPause);
-  };
+  const handleButtonClick = () => onClick(isPause);
 
   return (
     <div className="pause-play-button-wrapper">
       {isPause ? (
-        <button className={`button`} onClick={handleButtonClick}>
-          pause
-        </button>
-      ) : (
         <button className={`button play-button`} onClick={handleButtonClick}>
           play
+        </button>
+      ) : (
+        <button className={`button`} onClick={handleButtonClick}>
+          pause
         </button>
       )}
     </div>
@@ -27,6 +23,7 @@ const PausePlayButton = (props) => {
 };
 
 PausePlayButton.propTypes = {
+  isPause: PropTypes.bool.isRequired,
   onClick: PropTypes.func.isRequired,
 };
 
