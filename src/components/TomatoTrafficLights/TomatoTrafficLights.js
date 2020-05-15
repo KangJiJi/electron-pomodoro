@@ -1,19 +1,31 @@
 import React from "react";
 import PropTypes from "prop-types";
-import Tomato from "../Tomato/Tomato";
+import Tomato from "../../atoms/Tomato";
 
 const TomatoTrafficLights = (props) => {
   const { trafficLightsState } = props;
   return (
     <div className={`tomato-traffic-lights-wrapper`}>
       <div className={`red-light-wrapper`}>
-        <Tomato isOn={trafficLightsState.start} />
+        {trafficLightsState.stop ? (
+          <Tomato.RedTomato />
+        ) : (
+          <Tomato.TransparentTomato />
+        )}
       </div>
       <div className={`amber-light-wrapper`}>
-        <Tomato isOn={trafficLightsState.pending} />
+        {trafficLightsState.pending ? (
+          <Tomato.AmberTomato />
+        ) : (
+          <Tomato.TransparentTomato />
+        )}
       </div>
       <div className={`green-light-wrapper`}>
-        <Tomato isOn={trafficLightsState.stop} />
+        {trafficLightsState.start ? (
+          <Tomato.GreenTomato />
+        ) : (
+          <Tomato.TransparentTomato />
+        )}
       </div>
     </div>
   );
