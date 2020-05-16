@@ -10,11 +10,17 @@ const PausePlayButton = (props) => {
   return (
     <div className="pause-play-button-wrapper">
       {isPause ? (
-        <button className={`button play-button`} onClick={handleButtonClick}>
+        <button
+          className={`pause-play-button-wrapper__button pause-play-button-wrapper__play-button`}
+          onClick={handleButtonClick}
+        >
           play
         </button>
       ) : (
-        <button className={`button`} onClick={handleButtonClick}>
+        <button
+          className={`pause-play-button-wrapper__button pause-play-button-wrapper__pause-button`}
+          onClick={handleButtonClick}
+        >
           pause
         </button>
       )}
