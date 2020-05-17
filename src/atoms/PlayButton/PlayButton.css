@@ -1,4 +1,13 @@
 .play-button {
+  all: unset;
+  cursor: pointer;
+  border-radius: 50%;
+  display: inline-block;
   width: 4rem;
   height: 4rem;
+}
+
+.play-button__img {
+  width: 100%;
+  height: 100%;
 }

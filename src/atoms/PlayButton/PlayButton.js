@@ -1,13 +1,18 @@
 import React from "react";
 import PropTypes from "prop-types";
 import "./PlayButton.css";
+import button from "../../assets/images/button";
 
 const PlayButton = (props) => {
   const { onClick } = props;
   return (
     <>
       <button className={`play-button`} onClick={onClick}>
-        Play
+        <img
+          src={button.playButton}
+          className={`play-button__img`}
+          alt="playButton"
+        />
       </button>
     </>
   );

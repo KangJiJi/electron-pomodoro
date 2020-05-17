@@ -1,13 +1,18 @@
 import React from "react";
 import PropTypes from "prop-types";
 import "./PauseButton.css";
+import button from "../../assets/images/button";
 
 const PauseButton = (props) => {
   const { onClick } = props;
   return (
     <>
       <button className={`pause-button`} onClick={onClick}>
-        Pause
+        <img
+          src={button.pauseButton}
+          className={`pause-button__img`}
+          alt="pauseButton"
+        />
       </button>
     </>
   );
