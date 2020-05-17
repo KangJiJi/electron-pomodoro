@@ -1,5 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
+import "./ResetButton.css";
 import ReplayButton from "../../atoms/ReplayButton/ReplayButton";
 
 const ResetButton = (props) => {
