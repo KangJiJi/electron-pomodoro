@@ -1,0 +1,11 @@
+.colon-wrapper {
+  display: inline-block;
+  width: 2.76rem;
+  height: 4.2rem;
+  text-align: center;
+}
+
+.colon-wrapper__colon {
+  width: 100%;
+  height: 100%;
+}
