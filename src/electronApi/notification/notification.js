@@ -1,7 +1,12 @@
+import icon from "../../assets/images/icon";
+
 const osNotification = (title, body) => {
   if (!("Notification" in window)) return;
 
-  const notification = new Notification(title, { body });
+  new Notification(title, {
+    body,
+    icon: icon.electronTomato,
+  });
 };
 
 export default osNotification;
