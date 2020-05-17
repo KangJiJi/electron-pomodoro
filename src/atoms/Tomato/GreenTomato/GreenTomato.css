@@ -1,0 +1,10 @@
+.green-tomato-wrapper {
+  display: inline-block;
+  width: 4rem;
+  height: 4rem;
+}
+
+.green-tomato-wrapper__green-tomato {
+  width: 100%;
+  height: 100%;
+}

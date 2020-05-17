@@ -1,0 +1,10 @@
+.amber-tomato-wrapper {
+  display: inline-block;
+  width: 4rem;
+  height: 4rem;
+}
+
+.amber-tomato-wrapper__amber-tomato {
+  width: 100%;
+  height: 100%;
+}
