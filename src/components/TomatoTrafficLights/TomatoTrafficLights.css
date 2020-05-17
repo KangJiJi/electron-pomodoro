@@ -1,0 +1,15 @@
+.tomato-traffic-lights-wrapper {
+  display: inline-block;
+  width: 18rem;
+  height: 6rem;
+  background-color: #333;
+  border-radius: 30px;
+}
+
+.tomato-traffic-lights-wrapper__light-wrapper {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 6rem;
+  height: 6rem;
+}
