@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import PropTypes from "prop-types";
 import "./PausePlayButton.css";
+import PlayButton from "../../atoms/PlayButton/PlayButton";
+import PauseButton from "../../atoms/PauseButton/PauseButton";
 
 const PausePlayButton = (props) => {
   const { isPause, onClick } = props;
@@ -10,19 +12,9 @@ const PausePlayButton = (props) => {
   return (
     <div className="pause-play-button-wrapper">
       {isPause ? (
-        <button
-          className={`pause-play-button-wrapper__button pause-play-button-wrapper__play-button`}
-          onClick={handleButtonClick}
-        >
-          play
-        </button>
+        <PlayButton onClick={handleButtonClick} />
       ) : (
-        <button
-          className={`pause-play-button-wrapper__button pause-play-button-wrapper__pause-button`}
-          onClick={handleButtonClick}
-        >
-          pause
-        </button>
+        <PauseButton onClick={handleButtonClick} />
       )}
     </div>
   );
