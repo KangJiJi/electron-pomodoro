@@ -2,6 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import "./Timer.css";
 import Number from "../../atoms/Number/Number";
+import Colon from "../../atoms/Colon/Colon";
 
 const TimerNumber = (props) => {
   const { number } = props;
@@ -25,7 +26,9 @@ const Timer = (props) => {
 
   return (
     <div className={`timer-wrapper`}>
-      <TimerNumber number={minute} />:<TimerNumber number={second} />
+      <TimerNumber number={minute} />
+      <Colon />
+      <TimerNumber number={second} />
     </div>
   );
 };
