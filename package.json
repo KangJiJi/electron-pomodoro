@@ -1,6 +1,8 @@
 {
+  "author": "KangJi",
+  "description": "Pomodoro timer",
   "name": "electron-pomodoro",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
@@ -14,6 +16,8 @@
   "main": "public/electron.js",
   "homepage": "./",
   "build": {
+    "productName": "Pomodoro timer",
+    "icon": "src/assets/images/icon/electronTomato/electronTomato.png",
     "win": {
       "target": [
         "portable"
