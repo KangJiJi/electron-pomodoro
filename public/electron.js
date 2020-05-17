@@ -8,8 +8,8 @@ function createWindow() {
   mainWin = new BrowserWindow({
     alwaysOnTop: false,
     center: true,
-    width: 640,
-    height: 480,
+    width: 360,
+    height: 270,
   });
 
   const startUrl = isDev
