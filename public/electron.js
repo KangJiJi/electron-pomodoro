@@ -12,6 +12,10 @@ function createWindow() {
     resizable: false,
     width: 380,
     height: 285,
+    icon: path.join(
+      __dirname,
+      "../src/assets/images/icon/electronTomato/electronTomato.png"
+    ),
   });
 
   const startUrl = isDev
