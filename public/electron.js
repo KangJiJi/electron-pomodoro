@@ -38,6 +38,8 @@ function createWindow() {
   });
 }
 
+app.setAppUserModelId("Pomodoro timer");
+
 app.on("ready", () => {
   createWindow();
 });
