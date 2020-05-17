@@ -10,7 +10,7 @@ function createWindow() {
     center: true,
     fullscreenable: false,
     resizable: false,
-    width: 380,
+    width: 320,
     height: 285,
     icon: path.join(
       __dirname,
