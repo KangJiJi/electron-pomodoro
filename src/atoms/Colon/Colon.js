@@ -5,7 +5,12 @@ import colon from "../../assets/images/colon/colon.png";
 const Colon = () => {
   return (
     <div className="colon-wrapper">
-      <img src={colon} className={`colon-wrapper__colon`} alt="colon" />
+      <img
+        draggable="false"
+        src={colon}
+        className={`colon-wrapper__colon`}
+        alt="colon"
+      />
     </div>
   );
 };

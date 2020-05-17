@@ -9,6 +9,7 @@ const PlayButton = (props) => {
     <>
       <button className={`play-button`} onClick={onClick}>
         <img
+          draggable="false"
           src={button.playButton}
           className={`play-button__img`}
           alt="playButton"

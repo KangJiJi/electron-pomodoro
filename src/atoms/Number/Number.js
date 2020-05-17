@@ -22,6 +22,7 @@ const Number = (props) => {
   return (
     <div className="number-wrapper">
       <img
+        draggable="false"
         src={findNumberImg(number)}
         className={`number-wrapper__number`}
         alt="number"

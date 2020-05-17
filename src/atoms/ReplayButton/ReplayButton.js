@@ -9,6 +9,7 @@ const ReplayButton = (props) => {
     <>
       <button className={`replay-button`} onClick={onClick}>
         <img
+          draggable="false"
           src={button.replayButton}
           className={`replay-button__img`}
           alt="replayButton"

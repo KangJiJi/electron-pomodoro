@@ -6,6 +6,7 @@ const TransparentTomato = () => {
   return (
     <div className={`transparent-tomato-wrapper`}>
       <img
+        draggable="false"
         src={tomato.transparentTomato}
         className={`transparent-tomato-wrapper__transparent-tomato`}
         alt="transparentTomato"

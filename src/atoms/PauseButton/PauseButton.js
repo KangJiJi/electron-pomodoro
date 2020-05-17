@@ -9,6 +9,7 @@ const PauseButton = (props) => {
     <>
       <button className={`pause-button`} onClick={onClick}>
         <img
+          draggable="false"
           src={button.pauseButton}
           className={`pause-button__img`}
           alt="pauseButton"
