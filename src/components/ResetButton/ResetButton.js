@@ -1,14 +1,13 @@
 import React from "react";
 import PropTypes from "prop-types";
+import ReplayButton from "../../atoms/ReplayButton/ReplayButton";
 
 const ResetButton = (props) => {
   const { onClick } = props;
 
   return (
     <div className={`reset-button-wrapper`}>
-      <button className={`reset-button-wrapper__button`} onClick={onClick}>
-        reset
-      </button>
+      <ReplayButton onClick={onClick} />
     </div>
   );
 };
