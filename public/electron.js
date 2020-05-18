@@ -22,7 +22,7 @@ function createWindow() {
     resizable: false,
     autoHideMenuBar: true,
     width: 320,
-    height: 285,
+    height: 290,
     icon: path.join(
       __dirname,
       "../src/assets/images/icon/electronTomato/electronTomato.png"
