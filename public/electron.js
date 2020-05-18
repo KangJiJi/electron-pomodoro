@@ -5,11 +5,22 @@ const isDev = require("electron-is-dev");
 let mainWin;
 
 function createWindow() {
-  Menu.setApplicationMenu(null);
+  const menu = Menu.buildFromTemplate([
+    {
+      label: "Dev Tools",
+      role: "toggleDevTools",
+      accelerator: "F12",
+      click: () => {
+        win.webContents.toggleDevTools();
+      },
+    },
+  ]);
+  Menu.setApplicationMenu(menu);
   mainWin = new BrowserWindow({
     center: true,
     fullscreenable: false,
     resizable: false,
+    autoHideMenuBar: true,
     width: 320,
     height: 285,
     icon: path.join(
