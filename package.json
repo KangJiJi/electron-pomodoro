@@ -18,9 +18,26 @@
   "build": {
     "productName": "Pomodoro timer",
     "icon": "src/assets/images/icon/electronTomato/electronTomato.png",
+    "appId": "Pomodoro timer",
+    "asar": true,
+    "protocols": {
+      "name": "pomodoroTimer",
+      "schemes": [
+        "pomodoroTimer"
+      ]
+    },
+    "mac": {
+      "target": [
+        "default"
+      ]
+    },
+    "dmg": {
+      "title": "HelloElectron"
+    },
     "win": {
       "target": [
-        "portable"
+        "portable",
+        "nsis"
       ]
     }
   },
