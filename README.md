@@ -57,5 +57,5 @@
 
 | Download         | Link                                                               |
 | ---------------- | ------------------------------------------------------------------ |
-| Win 포터블(느림) | https://drive.google.com/open?id=1iUF-E9wCkg3yoQMg766Eo9hSzOihJGhr |
-| Win 설치(빠름)   | https://drive.google.com/open?id=1Qgc1i5SIRrgpR0DTz4hlllI4kOQaHtvM |
+| Win 포터블(느림) | https://drive.google.com/open?id=1yJvAzTX6ZDu9Tzxw1aoIsh3K0WO17IOt |
+| Win 설치(빠름)   | https://drive.google.com/open?id=1eab0ql4Qh-c3QZBjB525gooWBmEyXL4f |
