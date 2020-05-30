@@ -55,7 +55,8 @@
 
 다음 링크에서 다운로드 가능하다.
 
-| Download         | Link                                                               |
-| ---------------- | ------------------------------------------------------------------ |
-| Win 포터블(느림) | https://drive.google.com/open?id=1yJvAzTX6ZDu9Tzxw1aoIsh3K0WO17IOt |
-| Win 설치(빠름)   | https://drive.google.com/open?id=1eab0ql4Qh-c3QZBjB525gooWBmEyXL4f |
+| Download         | Link                                                                                 |
+| ---------------- | ------------------------------------------------------------------------------------ |
+| Win 포터블(느림) | https://drive.google.com/open?id=1yJvAzTX6ZDu9Tzxw1aoIsh3K0WO17IOt                   |
+| Win 설치(빠름)   | https://drive.google.com/open?id=1eab0ql4Qh-c3QZBjB525gooWBmEyXL4f                   |
+| Mac dmg          | https://drive.google.com/drive/folders/1LhVkPDhsmkxzbMaiYOHLTX2sOTX6ndXZ?usp=sharing |
